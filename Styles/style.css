@@ -1,0 +1,484 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:#d0b5e8 im !important;
+    height: 100%;
+}
+p{
+    text-align: justify;
+}
+h1,h2,h3,h4,h5{
+ 
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h5{
+    color:  #8810D8;
+}
+
+a:link {
+    text-decoration: none;
+}
+.navbar-default {
+    background-color: #8810D8;
+    border-color:  #8810D8;
+   
+}
+nav #navbarNavAltMarkup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+ 
+ .navbar-nav a {
+   flex-grow: 1;
+ }
+.colorText{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+.carousel{
+    height: 50px;  
+}
+    
+.navbar-nav {
+    font-weight: bold;
+    
+    }
+.active { 
+    color:#fdc500;
+    
+}
+.navbar-nav a:hover,a:visited:hover {
+     background-color: #fdc500; 
+}
+
+/*Responsive Menu*/
+
+.navbar {
+   display: none;
+   background-color: #8810D8 !important;
+   border-color:  #8810D8 !important;
+}
+
+.div-imagem {
+    background-color: #3D0066;
+    border-color:  hsl(276, 100%, 20%);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div-imagem #textoPrincipalCabecalho{
+    width: 100%;
+    text-align: center;
+}
+
+.div-imagem #textoPrincipalCabecalho #dataEvento{
+    color: #fdc500;
+    font-weight: bold;
+  
+}
+#textoPrincipalCabecalho{
+    color: #fff;
+    text-align:justify;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    
+}
+.top{
+    width: 100%;
+}
+
+#textoPrincipal{
+    padding-top: 20px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+}
+
+#div-imagem{
+    width: 100%;
+}
+#textoPrincipalCabecalho{
+    width: 100%;
+}
+
+
+#textoPrincipalCabecalho h6{
+    font-size: 1rem;
+    line-break: loose;
+    word-break: break-all;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    height:800px ;
+}
+
+.carousel-item .img-fluid{
+    object-fit: cover;
+    background-size:  fill;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+.navbar-nav .active { 
+    color:#fdc500
+}
+.navbar-nav a:hover,a:visited:hover {
+     background-color: #fdc500; 
+     color: #3D0066;
+}
+.container span{
+    background-color: #fdc500;
+}   
+.container h6{
+    font-weight: bold;
+}
+.container h4{
+    margin: 20px;
+    text-align: center;
+}
+.container #guideline-title{
+    text-align: left;
+    color: #3D0066;
+}
+.container #important-dates{
+    margin-bottom:0;
+}
+
+.container #important-dates-list ul li span{
+    font-weight: bold;
+}
+.container ul li{
+    text-align: justify ;
+}
+#doubled-line{
+    margin: 0.5px 0 12px 0;
+}
+#doubled-line hr{
+    margin: 2px;
+}
+
+/*---- Cards ---- */
+
+.title {
+    margin: 30px;
+    text-align: center;
+    color:  #3D0066;
+}
+
+.more{
+    border: solid 3px #fff;
+    border-radius: 5px;
+    background-color: #3D0066;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards .card{
+    margin: 15px;
+}
+
+.cards .card p{
+    text-align: justify;
+}
+
+.card figure img{
+    object-fit: cover;
+    background-size:  fill;
+    background-repeat: no-repeat;
+}
+
+#titleMain {
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+#navbarDropdown{
+    color: #fff;
+}
+.lastEvent .a-lastEvent:hover,a:visited:hover {
+    color:#3D0066 !important; 
+   
+}
+
+/*Button*/
+#button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-easychair{
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    background-color: #8810D8;
+    border: solid 2px #fff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+}
+.btn-easychair a:link{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.btn-easychair:hover,.btn-easychair:visited:hover{
+    background-color: #640ba0;
+}
+
+
+
+/*---- Submissions ----*/
+.submissions{
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+#ccisImg{
+    width: 280px;
+    height: 230px;
+}
+#springerImg{
+    
+    width: 462px;
+    height: 100px;
+}
+#lawcnSubmission{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    overflow-x: scroll;
+}
+
+/* Topics */
+#topic-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: baseline;
+    margin-bottom: 10px;
+    word-wrap: normal;
+    margin-left: 10%;
+   
+    
+}
+#topic-container .topic{
+    padding: 20px;
+    color: #313131;
+    word-wrap: normal;
+    margin-left: px;
+    background-color: rgb(219, 219, 219);
+    border: solid 5px #fff;
+    border-radius: 8px;
+}
+
+
+/*FOOTER*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #c9c9c9;
+    color: #313131;
+    min-height: fit-content;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+  
+  }
+  .subFooter{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      
+  }
+  .subFooter h4{
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  #miniFooter{
+      text-align: center;
+      padding: 7px;
+      width: 100%;
+      background-color:#313131;
+      color: #fff;
+      
+      
+  }
+
+  .organization{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      
+  }
+
+  
+    #fsadu{
+        width: 180px ;
+    }
+
+   
+    #brasaoUfma{
+
+        height: 160px !important;
+        width: 160px !important;
+    }
+  .imagemFooter{
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+  }
+  .alert-box {
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;  
+}
+
+.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    display: none;
+}
+  /*Form*/
+
+  form{
+      margin-top: 50px;
+  }
+  form button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 15px;
+      width: 180px;
+      height: 40px;
+      background-color: #640ba0;
+      border: solid 1px #fff;
+      border-radius: 4px;
+      color: #fff;
+  }
+  form button h6{
+      margin-top: 8px;
+  }
+  .form-group .form-row .col{
+    margin-bottom: 12px;
+  }
+  .form-group label{
+      font-weight: bold;
+      color: #640ba0; 
+  }
+  ::-webkit-input-placeholder  { 
+    font-size: smaller;
+  }
+
+  .send-contact{
+      margin-top: 80px;
+  }
+
+.travel_aid{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+/*To be Announced*/
+.tobe-announced{
+    margin: 200px 100px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tobe-announced h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #8810D8;
+    text-align: center;
+}
+.tobe-announced i{
+    font-size: 100px;
+    color: #3D0066;
+}
+
+/*Schedule*/
+
+#schedule {
+    margin: 100px 0 100px 0 ;
+    width: 100%;
+
+}
+
+#schedule .day-schedule{
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+
+/* Back title */
+
+.back-title{
+    background: #8810D8;
+    margin-bottom: 0;
+}
+
+.back-title h5{
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#imgIbro{
+    width: 160px;
+    height: 120px;
+}
+
+#brasaoUfma{
+    width: 130px;
+    height: 130px;
+}
+  
+ul.listRemoverPoint {
+    list-style-type: none;
+}
+
+#tableListagem ul{
+    list-style-type: none;
+}
+#tableListagem ul li{
+    text-align: left;
+}
+
+#transporteUber99{
+    text-align: center;
+    align-items: center;
+}
+
+.list-sem-marcador{
+    list-style-type: none !important;
+}

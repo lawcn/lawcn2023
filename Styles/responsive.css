@@ -1,0 +1,191 @@
+
+@media only screen and (max-width: 1395px){
+   
+    .navbar-nav a{
+        font-size: 0.87rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1308px){
+   
+    .navbar-nav a{
+        font-size: 0.57rem;
+    }
+    
+}
+
+@media only screen and (max-width: 991px){
+    .navbar-default{
+        display: none;
+    }
+    .navbar{
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .footer{
+        flex-direction: column;
+        height: 500px !important;
+    }
+}
+@media only screen and (max-width: 620px){
+    .organization{
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 560px){
+    
+}
+@media only screen and (max-width: 520px){
+    #posterImg{
+        width:446px;
+        height: 448px;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    #textoPrincipalCabecalho h6{
+        font-size: 0.89em !important;
+        
+    }
+     .div-imagem #logoEvento{
+         width: 420px;
+         height: 90px;
+     }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    #textoPrincipalCabecalho h6{
+        font-size: 0.85em !important;
+        
+    }
+     .div-imagem #logoEvento{
+         width: 400px;
+         height: 70px;
+     }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #textoPrincipalCabecalho h6{
+        font-size: 0.89em !important;
+        font-weight: 900 !important;
+        
+    }
+    #textoPrincipalCabecalho #sigla{
+        display: none;
+    }
+     .div-imagem #logoEvento{
+         width: 370px;
+         height: 60px;
+     }
+
+    footer{
+        margin-bottom: 0px;
+    }
+
+    #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
+}
+
+@media only screen and (max-width: 435px){
+    #textoPrincipalCabecalho h6{
+        font-size: 0.89em !important;
+        font-weight: 900 !important;
+        
+    }
+    #textoPrincipalCabecalho #sigla{
+        display: none;
+    }
+    #textoPrincipalCabecalho h6{
+        align-items: left !important;
+        margin-left: 60px;
+        text-align: left;
+    }
+     .div-imagem #logoEvento{
+         width: 370px;
+         height: 60px;
+     }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #textoPrincipalCabecalho h6{
+        font-size: 0.79em !important;
+        font-weight: 900 !important;
+        
+    }
+    #textoPrincipalCabecalho #sigla{
+        display: none;
+    }
+    #textoPrincipalCabecalho h6{
+        align-items: left !important;
+        margin-left: 0px;
+        text-align: left;
+    }
+    #textoPrincipalCabecalho {
+        width: 90% !important;
+    }
+     .div-imagem #logoEvento{
+         width: 340px;
+         height: 60px;
+     }
+
+     #imgIbro{
+        width: 150px !important;
+        height: 100px  !important;
+    }
+    
+    #brasaoUfma{
+        width: 110px !important;
+        height: 110px  !important;
+    }
+
+    #springerImg{
+        width: 300px !important;
+        height: 82px !important;
+    }
+    #ccisImg{
+        width: 180px !important;
+        height: 151px !important;
+    }
+}

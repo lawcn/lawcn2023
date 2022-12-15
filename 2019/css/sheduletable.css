@@ -1,0 +1,39 @@
+/*Important*/
+.red_line{
+    background-color:#c24141;
+    color:#ddd9d9;
+    line-height: 25px;
+}
+/*Keynote*/
+.pink_line{
+    background-color:#dda2a2;
+    color:#272424;
+}
+/*Oral Presentation*/
+.white_line{
+    background-color:#ddd9d9;
+    color:#272424;
+}
+
+/*Coffee Break*/
+.light_pink_line{
+
+    background-color:#f6c8c8;
+    color:#272424;
+}
+/*Oral Presentation
+.gray_line{
+    background-color:#ead094;
+    background-color:#b9b0b0;
+    color:#272424;
+}*/
+
+td, th{
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+table{
+    border-spacing: 5px;
+}

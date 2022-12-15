@@ -1,0 +1,11 @@
+User-agent: *
+User-agent:*
+Disallow: /error_log
+Disallow: /footer.html
+Disallow: /navbar.html
+Disallow: /email.php
+Disallow: /site/
+Disallow: /img/
+Disallow: /js/
+Disallow: /css/
+Sitemap: https://www.lawcn.com.br/sitemap.xml
