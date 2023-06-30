@@ -1,146 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title>VI LAWCN</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,100;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width= device-width, initial-scale=1.0" />
-  <title>VI LAWCN</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,100;1,200;1,700&display=swap"
-    rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-</head>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-  integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
-<body>
-  <link rel="stylesheet" href="../Styles/responsive.css" />
-  <link rel="stylesheet" href="../Styles/style.css" />
-  <div>
-    <div class="div-imagem">
-      <img src="../imagens/BANNER-FINAL.svg" height="250px" id="logoEvento" />
+  <body>
+    <link rel="stylesheet" href="../Styles/responsive.css" />
+    <link rel="stylesheet" href="../Styles/style.css" />
+    <div>
+      <div class="div-imagem">
+        <img src="../imagens/BANNER-FINAL.svg" height="250px" id="logoEvento" />
+      </div>
+      <nav class="navbar-default navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link colorText" href="../index.html">Main</a>
+            <a class="nav-item nav-link colorText active" href="./schedule.html"
+              >Schedule</a
+            >
+            <a class="nav-item nav-link colorText" href="./keynoteSpeakers.html"
+              >Keynote Speakers</a
+            >
+            <a class="nav-item nav-link colorText" href="./Roundtable.html"
+              >Roundtable</a
+            >
+            <a class="nav-item nav-link colorText" href="./registration.html"
+              >Registration</a
+            >
+            <a class="nav-item nav-link colorText" href="./submissions.html"
+              >Submissions</a
+            >
+            <a class="nav-item nav-link colorText" href="./comittees.html"
+              >Committees</a
+            >
+            <a class="nav-item nav-link colorText" href="./location.html"
+              >Venue</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./travel_accomodation.html"
+              >Travel and Accommodation</a
+            >
+            <div class="nav-item dropdown lastEvent">
+              <a
+                class="nav-link colorText dropdown-toggle a-lastEvent"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Last Events
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://www.inf.ufrgs.br/lawcn/index.php?q="
+                    >I LAWCN</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../2019/index.html"
+                    >II LAWCN</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.lawcn.com.br/"
+                    >III LAWCN</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-    <nav class="navbar-default navbar-expand-lg">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+    <!-- Responsive Menu-->
+    <div class="resp-menu">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 oi" id="resp-nav">
           <a class="nav-item nav-link colorText" href="../index.html">Main</a>
-          <a class="nav-item nav-link colorText active" href="./schedule.html">Schedule</a>
-          <a class="nav-item nav-link colorText" href="./keynoteSpeakers.html">Keynote Speakers</a>
-          <a class="nav-item nav-link colorText" href="./Roundtable.html">Roundtable</a>
-          <a class="nav-item nav-link colorText" href="./registration.html">Registration</a>
-          <a class="nav-item nav-link colorText" href="./submissions.html">Submissions</a>
-          <a class="nav-item nav-link colorText" href="./comittees.html">Committees</a>
-          <a class="nav-item nav-link colorText" href="./location.html">Venue</a>
-          <a class="nav-item nav-link colorText" href="./travel_accomodation.html">Travel and Accommodation</a>
+          <a class="nav-item nav-link colorText active" href="./schedule.html"
+            >Schedule</a
+          >
+          <a class="nav-item nav-link colorText" href="./keynoteSpeakers.html"
+            >Keynote Speakers</a
+          >
+          <a class="nav-item nav-link colorText" href="./Roundtable.html"
+            >Roundtable</a
+          >
+          <a class="nav-item nav-link colorText" href="./registration.html"
+            >Registration</a
+          >
+          <a class="nav-item nav-link colorText" href="./submissions.html"
+            >Submissions</a
+          >
+          <a class="nav-item nav-link colorText" href="./comittees.html"
+            >Committees</a
+          >
+          <a class="nav-item nav-link colorText" href="./location.html"
+            >Venue</a
+          >
+          <a
+            class="nav-item nav-link colorText"
+            href="./travel_accomodation.html"
+            >Travel and Accomodation</a
+          >
+
           <div class="nav-item dropdown lastEvent">
-            <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a
+              class="nav-link colorText dropdown-toggle a-lastEvent"
+              id="navbarDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Last Events
             </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              Registration with coffee break
               <li>
-                <a class="dropdown-item" href="http://www.inf.ufrgs.br/lawcn/index.php?q=">I LAWCN</a>
+                <a
+                  class="dropdown-item"
+                  href="http://www.inf.ufrgs.br/lawcn/index.php?q="
+                  >I LAWCN</a
+                >
               </li>
               <li>
                 <a class="dropdown-item" href="../2019/index.html">II LAWCN</a>
               </li>
               <li>
-                <a class="dropdown-item" href="https://www.lawcn.com.br/">III LAWCN</a>
+                <a class="dropdown-item" href="https://www.lawcn.com.br/"
+                  >III LAWCN</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </nav>
-  </div>
-  <!-- Responsive Menu-->
-  <div class="resp-menu">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4 oi" id="resp-nav">
-        <a class="nav-item nav-link colorText" href="../index.html">Main</a>
-        <a class="nav-item nav-link colorText active" href="./schedule.html">Schedule</a>
-        <a class="nav-item nav-link colorText" href="./keynoteSpeakers.html">Keynote Speakers</a>
-        <a class="nav-item nav-link colorText" href="./Roundtable.html">Roundtable</a>
-        <a class="nav-item nav-link colorText" href="./registration.html">Registration</a>
-        <a class="nav-item nav-link colorText" href="./submissions.html">Submissions</a>
-        <a class="nav-item nav-link colorText" href="./comittees.html">Committees</a>
-        <a class="nav-item nav-link colorText" href="./location.html">Venue</a>
-        <a class="nav-item nav-link colorText" href="./travel_accomodation.html">Travel and Accomodation</a>
-
-        <div class="nav-item dropdown lastEvent">
-          <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Last Events
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <a class="dropdown-item" href="http://www.inf.ufrgs.br/lawcn/index.php?q=">I LAWCN</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="../2019/index.html">II LAWCN</a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="https://www.lawcn.com.br/">III LAWCN</a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-      </div>
+      </nav>
     </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!-- End Responsive Menu-->
+
+    <div class="container">
+      <div class="title">
+        <h1>Schedule</h1>
+        <hr />
+      </div>
+      <div style="text-align: center">
+        <button
+          type="button"
+          class="btn-easychair"
+          style="width: 25rem !important"
+        >
+          <a
+            href="../Templates_Latex_Word/ProgramaFinal_2023.pdf"
+            target="_blank"
+            style="color: #fff"
+            >Click here to download the Final Program in detail</a
+          >
         </button>
       </div>
-    </nav>
-  </div>
-  <!-- End Responsive Menu-->
+      <div id="schedule">
+        <div class="day-schedule">
+          <table class="table table-hover table-striped">
+            <div class="back-title">
+              <h5>November 28th, 2023</h5>
+            </div>
+            <tbody>
+              <tr>
+                <td>8:00 - 9:00</td>
+                <td>Registration</td>
+              </tr>
 
-  <div class="container">
-    <div class="title">
-      <h1>Schedule</h1>
-      <hr />
-    </div>
-    <div class="tobe-announced">
-      <h1>To be Announced.</h1>
-      <i class="fas fa-tools"></i>
-    </div>
-  </div>
+              <tr>
+                <td>9:00 - 9:45</td>
+                <td>Prof. Ph.D. Salvador Durá-Bernal</td>
+              </tr>
 
-  <footer>
-    <div class="footer">
-      <div class="subFooter">
-        <h4>Organization</h4>
-  
-        <div class="organization">
-          <div class="imagemFooter">
-            <a href="https://www.iue.edu.co/"><img id="iue" src="../imagens/IUE.png"></a>
+              <tr>
+                <td>9:45 - 10:45</td>
+                <td>Oral presentation of accepted papers - Session A</td>
+              </tr>
+
+              <tr>
+                <td>10:45 - 11:15</td>
+                <td>Coffee break 1 - Poster session</td>
+              </tr>
+
+              <tr>
+                <td>11:15 - 12:00</td>
+                <td>Prof. Ph.D. Catalina Alvarado.</td>
+              </tr>
+
+              <tr>
+                <td>12:00 - 14:00</td>
+                <td>Lunch</td>
+              </tr>
+
+              <tr>
+                <td>14:00 - 15:30</td>
+                <td>Oral presentation of accepted papers - Session B</td>
+              </tr>
+
+              <tr>
+                <td>15:30 - 16:00</td>
+                <td>Coffee break 2 - Poster session</td>
+              </tr>
+              <tr>
+                <td>16:00 - 17:00</td>
+                <td>Prof. Ph.D. Norberto Garcia-Caraisco.</td>
+              </tr>
+              <tr>
+                <td>17:00 - 18:80</td>
+                <td><b>Opening Ceremony</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="day-schedule">
+          <div class="back-title">
+            <h5>November 29th, 2023</h5>
           </div>
-          <div class="imagemFooter">
-            <a href="https://colne.org.co/"><img id="colne" src="../imagens/colne.png"></a>
+          <table class="table table-hover table-striped">
+            <tbody>
+              <tr>
+                <td>9:00 - 9:45</td>
+                <td>Oral presentation of accepted papers - Session C</td>
+              </tr>
+
+              <tr>
+                <td>9:45 - 10:30</td>
+                <td>Coffee break 3 - Poster session</td>
+              </tr>
+
+              <tr>
+                <td>10:30 - 11:15</td>
+                <td>Prof. Ph.D. Marta Molinas.</td>
+              </tr>
+
+              <tr>
+                <td>11:15 - 12:00</td>
+                <td>Oral presentation of accepted papers - Session D</td>
+              </tr>
+
+              <tr>
+                <td>12:00 - 14:00</td>
+                <td>Lunch</td>
+              </tr>
+
+              <tr>
+                <td>14:00 - 14:45</td>
+                <td>Prof. Ph.D. Paula Herrera.</td>
+              </tr>
+
+              <tr>
+                <td>14:45 - 15:30</td>
+                <td>Coffee break 4 - Poster session</td>
+              </tr>
+              <tr>
+                <td>15:30 - 17:00</td>
+                <td>Round table: gender diversity in neuroscience</td>
+              </tr>
+              <tr>
+                <td>17:00</td>
+                <td>Social activity</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="day-schedule">
+          <div class="back-title">
+            <h5>November 30th, 2023</h5>
           </div>
-          <div class="imagemFooter">
-            <a href="https://www.javerianacali.edu.co/"><img id="javeriana" src="../imagens/javeriana.png"></a>
-          </div>
-  
-          <div class="imagemFooter">
-            <a href="https://www.univalle.edu.co/"><img id="univalle" src="../imagens/Univalle.png"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="http://www.ufrgs.br/ufrgs/inicial"><img id="ufrgs" src="../imagens/ufrgs.jpeg"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="https://www.ufsj.edu.br/"><img id="ufsj" src="../imagens/ufsj.jpeg"></a>
+          <table class="table table-hover table-striped">
+            <tbody>
+              <tr>
+                <td>9:00 - 9:45</td>
+                <td>Prof. PhD. José M Azorin</td>
+              </tr>
+
+              <tr>
+                <td>10:30 - 11:15</td>
+                <td>Coffee break 5- Poster session</td>
+              </tr>
+
+              <tr>
+                <td>11:15 - 12:00</td>
+                <td>Oral presentation of accepted papers - Session F</td>
+              </tr>
+
+              <tr>
+                <td>12:00 - 14:00</td>
+                <td>Lunch</td>
+              </tr>
+              <tr>
+                <td>14:00 - 14:45</td>
+                <td>Prof. PhD. José L Contreras-Vidal.</td>
+              </tr>
+
+              <tr>
+                <td>14:45 - 15:30</td>
+                <td>Oral presentation of accepted papers - Session G</td>
+              </tr>
+
+              <tr>
+                <td>15:30 - 16:00</td>
+                <td>Lunch BCI LATAM Network</td>
+              </tr>
+              <tr>
+                <td>16:00 - 16:15</td>
+                <td>Coffee break 5- Poster session</td>
+              </tr>
+              <tr>
+                <td>16:15 - 17:00</td>
+                <td>Prof. PhD. Fabien Lotte</td>
+              </tr>
+
+              <tr>
+                <td>17:00 - 18:00</td>
+                <td><b>Closing ceremony</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="title">
+          <h1>Session</h1>
+          <hr />
+        </div>
+
+        <div>
+          <p><b>Session A: </b>Computational Neuroscience</p>
+          <p><b>Session B: </b> Computer Science and Engineering.</p>
+          <p><b>Session C: </b>Neuroscience</p>
+          <p><b>Session D: </b>Psychology, Health, and Medicine</p>
+          <p><b>Session E: </b>Neurorehabilitation – Neuroengineering</p>
+          <p>
+            <b>Session F: </b>Philosophy, Ethics, and Education in Neuroscience
+          </p>
+          <p><b>Session G: </b>Brain Computer-Interface</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="subFooter">
+          <h4>Organization</h4>
+
+          <div class="organization">
+            <div class="imagemFooter">
+              <a href="https://www.iue.edu.co/"
+                ><img id="iue" src="../imagens/IUE.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://colne.org.co/"
+                ><img id="colne" src="../imagens/colne.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.javerianacali.edu.co/"
+                ><img id="javeriana" src="../imagens/javeriana.png"
+              /></a>
+            </div>
+
+            <div class="imagemFooter">
+              <a href="https://www.univalle.edu.co/"
+                ><img id="univalle" src="../imagens/Univalle.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="http://www.ufrgs.br/ufrgs/inicial"
+                ><img id="ufrgs" src="../imagens/ufrgs.jpeg"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.ufsj.edu.br/"
+                ><img id="ufsj" src="../imagens/ufsj.jpeg"
+              /></a>
+            </div>
           </div>
         </div>
-  
-      </div>
-      <div class="subFooter">
-        <!--<h4>Sponsors and Support</h4>
+        <div class="subFooter">
+          <!--<h4>Sponsors and Support</h4>
          <div class="imagemFooter">
           <a href="https://ibro.org/"><img id="imgIbro" src="../imagens/IBRO.png"></a>
           <a href="https://plexon.com/"><img
@@ -151,23 +427,26 @@
               src="../imagens/NTX logo 2020.jpg"></a>
   
         </div> -->
-  
+        </div>
       </div>
-    </div>
-    <div id="miniFooter">
-      <h6>Copyright ©LAWCN 2023 - Contact us by e-mail: <a href="#">lawcn_2023@iue.edu.co</a> </h6>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script type="jQuery">
+      <div id="miniFooter">
+        <h6>
+          Copyright ©LAWCN 2023 - Contact us by e-mail:
+          <a href="#">lawcn_2023@iue.edu.co</a>
+        </h6>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="jQuery">
       $('.carousel').carousel({
           interval: 1000
         })
     </script>
-</body>
-
+  </body>
 </html>
