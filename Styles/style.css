@@ -288,7 +288,7 @@ a:visited:hover {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #c9c9c9;
+  background-color: #dedede;
   color: #313131;
   min-height: fit-content;
 
@@ -322,22 +322,26 @@ a:visited:hover {
 }
 
 #iue {
-  width: 180px;
+  height: 150px;
 }
 #javeriana {
-  width: 100px !important;
+  height: 150px !important;
 }
 #colne {
-  width: 200px !important;
+  height: 150px !important;
 }
 #univalle {
-  width: 100px !important;
+  height: 150px !important;
 }
 #ufrgs {
-  width: 150px !important;
+  height: 150px !important;
 }
 #ufsj {
-  width: 120px !important;
+  height: 150px !important;
+}
+
+#support {
+  height: 150px !important;
 }
 
 .imagemFooter {
