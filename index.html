@@ -1,372 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width= device-width, initial-scale=1.0" />
+    <title>IV LAWCN</title>
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,100;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width= device-width, initial-scale=1.0">
-  <title>IV LAWCN</title>
-  <link rel="stylesheet" href="./Styles/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,100;1,200;1,700&display=swap"
-    rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Styles/responsive.css" />
+    <link rel="stylesheet" href="./Styles/style.css" />
+  </head>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./Styles/responsive.css">
-  <link rel="stylesheet" href="./Styles/style.css">
-</head>
-
-<body>
-  <div class="top">
-    <div class="div-imagem">
-      <img src="./imagens/BANNER-FINAL.svg" height='250px' id="logoEvento">
-
+  <body>
+    <div class="top">
+      <div class="div-imagem">
+        <img src="./imagens/BANNER-FINAL.svg" id="logoEvento" />
+      </div>
+      <nav class="navbar-default navbar-expand-lg">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link colorText active" href="./index.html"
+              >Main</a
+            >
+            <a class="nav-item nav-link colorText" href="./event/schedule.html"
+              >Schedule</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./event/keynoteSpeakers.html"
+              >Keynote Speakers</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./event/Roundtable.html"
+              >Roundtable</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./event/registration.html"
+              >Registration</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./event/submissions.html"
+              >Submissions</a
+            >
+            <a class="nav-item nav-link colorText" href="./event/comittees.html"
+              >Committees</a
+            >
+            <a class="nav-item nav-link colorText" href="./event/location.html"
+              >Venue</a
+            >
+            <a
+              class="nav-item nav-link colorText"
+              href="./event/travel_accomodation.html"
+              >Travel and Accommodation</a
+            >
+            <div class="nav-item dropdown lastEvent">
+              <a
+                class="nav-link colorText dropdown-toggle a-lastEvent"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Last Events
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="http://www.inf.ufrgs.br/lawcn/index.php?q="
+                    >I LAWCN</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./2019/index.html">II LAWCN</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.lawcn.com.br/"
+                    >III LAWCN</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-    <nav class="navbar-default navbar-expand-lg">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link colorText active" href="./index.html">Main</a>
-          <a class="nav-item nav-link colorText" href="./event/schedule.html">Schedule</a>
-          <a class="nav-item nav-link colorText" href="./event/keynoteSpeakers.html">Keynote Speakers</a>
-          <a class="nav-item nav-link colorText" href="./event/Roundtable.html">Roundtable</a>
-          <a class="nav-item nav-link colorText" href="./event/registration.html">Registration</a>
-          <a class="nav-item nav-link colorText" href="./event/submissions.html">Submissions</a>
-          <a class="nav-item nav-link colorText" href="./event/comittees.html">Committees</a>
-          <a class="nav-item nav-link colorText" href="./event/location.html">Venue</a>
-          <a class="nav-item nav-link colorText" href="./event/travel_accomodation.html">Travel and Accommodation</a>
+
+    <!-- Responsive Menu-->
+    <div class="resp-menu">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 oi" id="resp-nav">
+          <a class="nav-item nav-link colorText active" href="./index.html"
+            >Main</a
+          >
+          <a class="nav-item nav-link colorText" href="./event/schedule.html"
+            >Schedule</a
+          >
+          <a
+            class="nav-item nav-link colorText"
+            href="./event/keynoteSpeakers.html"
+            >Keynote Speakers</a
+          >
+          <a class="nav-item nav-link colorText" href="./event/Roundtable.html"
+            >Roundtable</a
+          >
+          <a
+            class="nav-item nav-link colorText"
+            href="./event/registration.html"
+            >Registration</a
+          >
+          <a class="nav-item nav-link colorText" href="./event/submissions.html"
+            >Submissions</a
+          >
+          <a class="nav-item nav-link colorText" href="./event/comittees.html"
+            >Committees</a
+          >
+          <a class="nav-item nav-link colorText" href="./event/location.html"
+            >Venue</a
+          >
+          <a
+            class="nav-item nav-link colorText"
+            href="./event/travel_accomodation.html"
+            >Travel and Accomodation</a
+          >
           <div class="nav-item dropdown lastEvent">
-            <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown"
-              aria-expanded="false">
+            <a
+              class="nav-link colorText dropdown-toggle a-lastEvent"
+              id="navbarDropdown"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
               Last Events
             </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="http://www.inf.ufrgs.br/lawcn/index.php?q=">I LAWCN</a></li>
-              <li><a class="dropdown-item" href="./2019/index.html">II LAWCN</a></li>
-              <li><a class="dropdown-item" href="https://www.lawcn.com.br/">III LAWCN</a></li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="http://www.inf.ufrgs.br/lawcn/index.php?q="
+                  >I LAWCN</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="./2019/index.html">II LAWCN</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.lawcn.com.br/"
+                  >III LAWCN</a
+                >
+              </li>
             </ul>
           </div>
-
         </div>
       </div>
-    </nav>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <!-- End Responsive Menu-->
+    <div class="container">
+      <div id="slideImagens">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          </ol>
 
-  </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_1.JPG"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_2.JPG"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_3.jpg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_4.jpg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_190919_AlíciaAntonioli_32.jpg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_190919_AlíciaAntonioli_41.jpg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="img-fluid"
+                src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_200919_AlíciaAntonioli_50.jpg"
+              />
+            </div>
+          </div>
 
-  <!-- Responsive Menu-->
-  <div class="resp-menu">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4 oi" id="resp-nav">
-        <a class="nav-item nav-link colorText active" href="./index.html">Main</a>
-        <a class="nav-item nav-link colorText" href="./event/schedule.html">Schedule</a>
-        <a class="nav-item nav-link colorText" href="./event/keynoteSpeakers.html">Keynote Speakers</a>
-        <a class="nav-item nav-link colorText" href="./event/Roundtable.html">Roundtable</a>
-        <a class="nav-item nav-link colorText" href="./event/registration.html">Registration</a>
-        <a class="nav-item nav-link colorText" href="./event/submissions.html">Submissions</a>
-        <a class="nav-item nav-link colorText" href="./event/comittees.html">Committees</a>
-        <a class="nav-item nav-link colorText" href="./event/location.html">Venue</a>
-        <a class="nav-item nav-link colorText" href="./event/travel_accomodation.html">Travel and Accomodation</a>
-        <div class="nav-item dropdown lastEvent">
-          <a class="nav-link colorText dropdown-toggle a-lastEvent" id="navbarDropdown" data-bs-toggle="dropdown"
-            aria-expanded="false">
-            Last Events
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="http://www.inf.ufrgs.br/lawcn/index.php?q=">I LAWCN</a></li>
-            <li><a class="dropdown-item" href="./2019/index.html">II LAWCN</a></li>
-            <li><a class="dropdown-item" href="https://www.lawcn.com.br/">III LAWCN</a></li>
-          </ul>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
       </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-
-  </div>
-  <!-- End Responsive Menu-->
-  <div class="container">
-    <div id="slideImagens">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        </ol>
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="img-fluid" src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_1.JPG">
-          </div>
-          <div class="carousel-item ">
-            <img class="img-fluid" src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_2.JPG">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid" src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_3.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid" src="./imagens/slideImage/Fotos_III_LAWCN_2021/IIILAWCN_4.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid"
-              src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_190919_AlíciaAntonioli_32.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid"
-              src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_190919_AlíciaAntonioli_41.jpg">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid"
-              src="./imagens/slideImage/Fotos_III_LAWCN_2021/IILAWCN_200919_AlíciaAntonioli_50.jpg">
-          </div>
+      <!--General Information-->
+      <div>
+        <div class="title">
+          <h2>General Information</h2>
         </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <!--General Information-->
-    <div>
-      <div class="title">
-        <h2>General Information</h2>
-      </div>
-      <hr>
-      <p>
-        The human brain is considered the most complex object in the known universe and the least understood organ in
-        the human body.
-        Neuroscientists with different backgrounds - medicine, psychology, electrical engineering, biomedical
-        engineering, mechanical
-        engineering, computer science, mathematics, physics and so on – gather aiming to understand the brain.
-      </p>
-      <p>
-        The idea of a series of events to support new findings about the brain and their spreading among neuroscientists
-        in the field of
-        Computational Neuroscience and related topics for the Latin American community started in 2012 with a group of
-        researchers from the
-        Federal University of Rio Grande do Sul (UFRGS) - Brazil. Later on, this initial event led to the creation of
-        the Latin American Workshop on
-        Computational Neuroscience (LAWCN) in 2017.
-      </p>
-      <p>
-        <a href="https://www.inf.ufrgs.br/lawcn/index.php?q=">LAWCN</a> has contributed to revealing knowledge about the
-        brain since its first edition in 2017 in the cosmopolitan city of Porto Alegre (Rio Grande do Sul – Brazil). As
-        a biannual event, the <a href="https://lawcn.co/2019/index.html">II LAWCN</a> took place in 2019 in the
-        three-centennial colonial city of São João del-Rei
-        (Minas Gerais – Brazil). While the <a href="https://www.lawcn.com.br/">III LAWCN</a> was held in 2021 at the
-        beautiful Caribbean city of São Luís
-        (Maranhão - Brazil).
-      </p>
-      <p>
-        Now the IV LAWCN 2022 is going to be between 28-30 November 2023 in the city of Envigado (Antioquia - Colombia). This is the first LAWCN edition outside of Brazil, expanding its presence to Latin America, seeking for enhancing the
-        collaboration network among the countries of our region but keeping the worldwide approach. Envigado is located in the
-        Metropolitan Area of the Aburrá Valley, close to Medellín, the second-largest city in Colombia, and the capital of the
-        department of Antioquia. Envigado is known for maintaining the traditions of the Paisa Region and for its architecture.
-        It also has one of the highest standards of living in Colombia. Also, Envigado was recognized recently as one of the
-        UNESCO Global Network of Learning Cities <a href="https://uil.unesco.org/city/envigado">(UNESCO GNLC)</a>.
-      </p>
-      <p>
-        Since the first edition, LAWCN has been gathering students and researchers from the fields of Computational
-        Neuroscience, Artificial Intelligence, Neuroscience, and Neuroengineering in an enthusiastic atmosphere for sharing
-        ideas, creating networks, and fostering collaboration. For IV LAWCN (2023) it is expected, as it happened in the
-        previous editions, hundreds of scientists from undergrads to experienced faculties come from different countries to
-        attend interesting talks from worldwide renowned keynote speakers. Moreover, this reunion of minds aids to share
-        findings and experiences in the pursuit of cutting-edge knowledge on the brain.
-      </p>
-      <p>
-        The IV LAWCN (2023) is organized by the <a href="https://www.iue.edu.co/">Institution University of Envigado
-          (IUE)</a>
-        by the research group "Grupo de Investigación Tecnologías Emergentes Sostenibles e Inteligentes
-        <a
-          href="https://www.iue.edu.co/grupo-de-investigacion-tecnologias-emergentes-sostenibles-e-inteligentes-gitesi">GITESI</a>",
-        from the Engineering Faculty, in collaboration with the <a href="https://colne.org.co">Colegio
-          Colombiano de Neurociencias (COLNE)</a>, the most representative association of neuroscience researchers and
-        students in Colombia. Also, as in previous editions, we are looking for financial support from the International
-        Brain Research Organization (IBRO) which is going to provide travel aid for some participants (priority for
-        women’s participation and regional diversity), and from Plexon with travel aid for authors of accepted papers
-        <strong>(To be confirmed yet).</strong> The Organizing Committee is very proud to welcome researchers from Latin
-        America and the whole world to the IV LAWCN (2023). We wish, as in the last editions, an extraordinary exchange
-        of ideas and experiences to advance interdisciplinary brain science.
-      </p>
-      <!--LINK DO FACEOOK DE 2021-->
-      <!-- <h6 style="text-align: center;"><a href="https://www.facebook.com/LAWCN2023" style="color: #3D0066;">Follow us on
+        <hr />
+        <p>
+          The human brain is considered the most complex object in the known
+          universe and the least understood organ in the human body.
+          Neuroscientists with different backgrounds - medicine, psychology,
+          electrical engineering, biomedical engineering, mechanical
+          engineering, computer science, mathematics, physics and so on – gather
+          aiming to understand the brain.
+        </p>
+        <p>
+          The idea of a series of events to support new findings about the brain
+          and their spreading among neuroscientists in the field of
+          Computational Neuroscience and related topics for the Latin American
+          community started in 2012 with a group of researchers from the Federal
+          University of Rio Grande do Sul (UFRGS) - Brazil. Later on, this
+          initial event led to the creation of the Latin American Workshop on
+          Computational Neuroscience (LAWCN) in 2017.
+        </p>
+        <p>
+          <a href="https://www.inf.ufrgs.br/lawcn/index.php?q=">LAWCN</a> has
+          contributed to revealing knowledge about the brain since its first
+          edition in 2017 in the cosmopolitan city of Porto Alegre (Rio Grande
+          do Sul – Brazil). As a biannual event, the
+          <a href="https://lawcn.co/2019/index.html">II LAWCN</a> took place in
+          2019 in the three-centennial colonial city of São João del-Rei (Minas
+          Gerais – Brazil). While the
+          <a href="https://www.lawcn.com.br/">III LAWCN</a> was held in 2021 at
+          the beautiful Caribbean city of São Luís (Maranhão - Brazil).
+        </p>
+        <p>
+          Now the IV LAWCN 2022 is going to be between 28-30 November 2023 in
+          the city of Envigado (Antioquia - Colombia). This is the first LAWCN
+          edition outside of Brazil, expanding its presence to Latin America,
+          seeking for enhancing the collaboration network among the countries of
+          our region but keeping the worldwide approach. Envigado is located in
+          the Metropolitan Area of the Aburrá Valley, close to Medellín, the
+          second-largest city in Colombia, and the capital of the department of
+          Antioquia. Envigado is known for maintaining the traditions of the
+          Paisa Region and for its architecture. It also has one of the highest
+          standards of living in Colombia. Also, Envigado was recognized
+          recently as one of the UNESCO Global Network of Learning Cities
+          <a href="https://uil.unesco.org/city/envigado">(UNESCO GNLC)</a>.
+        </p>
+        <p>
+          Since the first edition, LAWCN has been gathering students and
+          researchers from the fields of Computational Neuroscience, Artificial
+          Intelligence, Neuroscience, and Neuroengineering in an enthusiastic
+          atmosphere for sharing ideas, creating networks, and fostering
+          collaboration. For IV LAWCN (2023) it is expected, as it happened in
+          the previous editions, hundreds of scientists from undergrads to
+          experienced faculties come from different countries to attend
+          interesting talks from worldwide renowned keynote speakers. Moreover,
+          this reunion of minds aids to share findings and experiences in the
+          pursuit of cutting-edge knowledge on the brain.
+        </p>
+        <p>
+          The IV LAWCN (2023) is organized by the
+          <a href="https://www.iue.edu.co/"
+            >Institution University of Envigado (IUE)</a
+          >
+          by the research group "Grupo de Investigación Tecnologías Emergentes
+          Sostenibles e Inteligentes
+          <a
+            href="https://www.iue.edu.co/grupo-de-investigacion-tecnologias-emergentes-sostenibles-e-inteligentes-gitesi"
+            >GITESI</a
+          >", from the Engineering Faculty, in collaboration with the
+          <a href="https://colne.org.co"
+            >Colegio Colombiano de Neurociencias (COLNE)</a
+          >, the most representative association of neuroscience researchers and
+          students in Colombia. Also, as in previous editions, we are looking
+          for financial support from the International Brain Research
+          Organization (IBRO) which is going to provide travel aid for some
+          participants (priority for women’s participation and regional
+          diversity), and from Plexon with travel aid for authors of accepted
+          papers <strong>(To be confirmed yet).</strong> The Organizing
+          Committee is very proud to welcome researchers from Latin America and
+          the whole world to the IV LAWCN (2023). We wish, as in the last
+          editions, an extraordinary exchange of ideas and experiences to
+          advance interdisciplinary brain science.
+        </p>
+        <!--LINK DO FACEOOK DE 2021-->
+        <!-- <h6 style="text-align: center;"><a href="https://www.facebook.com/LAWCN2023" style="color: #3D0066;">Follow us on
           facebook for news <i class="fab fa-facebook-square"></i></a></h6> -->
-      <!-- <h6 style="text-align: center;"><a href="#" style="color: #3D0066;">Follow us on Instagram for news <i
+        <!-- <h6 style="text-align: center;"><a href="#" style="color: #3D0066;">Follow us on Instagram for news <i
             class="fab fa-instagram"></i></a></h6> -->
+      </div>
+      <hr />
+      <!--Areas of the IV LAWCN-->
+      <div>
+        <h4 id="guideline-title">Areas of the IV LAWCN</h4>
+        <p>
+          Keeping the tradition of the previous edition of this meeting, the IV
+          LAWCN has four main topics:
+          <b>
+            <ul class="listRemoverPoint">
+              <li>A- Computational Neuroscience;</li>
+              <li>B- Neuroscience;</li>
+              <li>C- Neuroengineering</li>
+              <li>D- Artificial Intelligence and related topics.</li>
+            </ul>
+          </b>
+        </p>
+      </div>
+      <!--activities-->
+      <div>
+        <h4 id="guideline-title">
+          The Workshop will consist mainly of the following activities
+        </h4>
+        <p>
+          <b>
+            <ul class="listRemoverPoint">
+              <li>
+                A- Presentation of up to 8 key renowned international and
+                national researchers.
+              </li>
+              <li>
+                B- Roundtable to broadly discuss gender diversity in
+                Neuroscience.
+              </li>
+              <li>
+                c- Oral presentations of accepted papers by their authors.
+              </li>
+              <li>D- Poster session.</li>
+              <li>E- Technical exhibitors.</li>
+            </ul>
+          </b>
+        </p>
+      </div>
+      <!--Submission and publication of papers-->
+      <div>
+        <h4 id="guideline-title">Submission and publication of papers</h4>
 
-    </div>
-    <hr>
-    <!--Areas of the IV LAWCN-->
-    <div>
-      <h4 id="guideline-title">Areas of the IV LAWCN</h4>
-      <p>
-        Keeping the tradition of the previous edition of this meeting, the IV LAWCN has four main topics:
-        <b>
-          <ul class="listRemoverPoint">
-            <li>A- Computational Neuroscience;</li>
-            <li>B- Neuroscience;</li>
-            <li>C- Neuroengineering</li>
-            <li>D- Artificial Intelligence and related topics.</li>
-          </ul>
+        <p>
+          Participants are invited to submit papers on the topics of the event.
+          All accepted papers will be published in the conference proceedings,
+          with ISBN. As in the last editions, selected papers of LAWCN 2023 will
+          be published in the Communications in Computer and Information Science
+          (CCIS) proceedings series - Springer Nature (ISSN 1865-0929) -
+          <strong>(To be confirmed yet).</strong> Authors of accepted papers
+          must present their work in the workshop.
+        </p>
 
-        </b>
-
-      </p>
-    </div>
-    <!--activities-->
-    <div>
-      <h4 id="guideline-title">The Workshop will consist mainly of the following activities</h4>
-      <p>
-        <b>
-          <ul class="listRemoverPoint">
-            <li>A- Presentation of up to 8 key renowned international and national researchers.</li>
-            <li>B- Roundtable to broadly discuss gender diversity in Neuroscience.</li>
-            <li>c- Oral presentations of accepted papers by their authors.</li>
-            <li>D- Poster session.</li>
-            <li>E- Technical exhibitors.</li>
-          </ul>
-        </b>
-      </p>
-    </div>
-    <!--Submission and publication of papers-->
-    <div>
-
-      <h4 id="guideline-title">Submission and publication of papers</h4>
-
-      <p>
-        Participants are invited to submit papers on the topics of the event. All accepted papers will be published in
-        the conference proceedings, with ISBN. As in the last editions, selected papers of LAWCN 2023 will be published
-        in the Communications in Computer and Information Science (CCIS) proceedings series - Springer Nature (ISSN
-        1865-0929) - <strong>(To be confirmed yet).</strong> Authors of accepted papers must present their work in the
-        workshop.
-      </p>
-
-      <!-- <div class="submissions" style="text-align: center; padding-top: -3px;">
+        <!-- <div class="submissions" style="text-align: center; padding-top: -3px;">
         <a href="https://www.springer.com/br" target="_blank"><img id="springerImg"
             src="./imagens/submissions/Springer_Logo.jpg"></a>
         <a href="https://link.springer.com/bookseries/7899" target="_blank"><img id="ccisImg"
             src="./imagens/submissions/CCIS-Logo.jpg"></a>
       </div> -->
-    </div>
-<hr>
-    <!--Important Dates-->
-    <div style="margin-top: 0;">
-      <div class="title">
+      </div>
+      <hr />
+      <!--Important Dates-->
+      <div style="margin-top: 0">
+        <div class="title">
           <h1>Important Dates</h1>
         </div>
-        <p>
+
         <ul>
           <li>Paper submission deadline: August 1st, 2023</li>
           <li>Notification of acceptance (paper): September 30, 2023</li>
           <li>Camera-ready (paper): October 31, 2023</li>
-          <br>
+          <br />
           <li>Abstract submission deadline: September 1st, 2023</li>
           <li>Notification of acceptance (abstract): September 30, 2023</li>
           <li>Camera-ready (abstract): October 31, 2023</li>
           <li>Workshop: November 28-30, 2023 (IUE, Envigado, Colombia)</li>
         </ul>
+
+        <h4 id="guideline-title">Disclaimer</h4>
+
+        <p>
+          Dates may change according to the terms negotiated with publisher and
+          availability of reviewers. Please, check this page frequently for
+          updates.
         </p>
-
-      <h4 id="guideline-title">Disclaimer</h4>
-
-      <p>Dates may change according to the terms negotiated with publisher and availability of reviewers.
-        Please, check this page frequently for updates.</p>
-    </div>
-    <!--Interview-->
-    <div>
-      <div class="title">
-        <h2>Interview - 20/09/2019</h2>
-        <hr>
       </div>
-      <div style="text-align: center;">
-        <iframe width="90%" height="315" src="https://www.youtube.com/embed/DMr3H8QMeQQ" title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen></iframe>
+      <!--Interview-->
+      <div>
+        <div class="title">
+          <h2>Interview - 20/09/2019</h2>
+          <hr />
+        </div>
+        <div style="text-align: center">
+          <iframe
+            width="90%"
+            height="315"
+            src="https://www.youtube.com/embed/DMr3H8QMeQQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <hr />
       </div>
-      <hr>
     </div>
 
-  </div>
-  </div>
-  <footer>
-    <div class="footer">
-      <div class="subFooter">
-        <h4>Organization</h4>
+    <footer>
+      <div class="footer">
+        <div class="subFooter">
+          <h4>Organization</h4>
 
-        <div class="organization">
-          <div class="imagemFooter">
-            <a href="https://www.iue.edu.co/"><img id="iue" src="imagens/IUE.png"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="https://colne.org.co/"><img id="colne" src="imagens/colne.png"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="https://www.javerianacali.edu.co/"><img id="javeriana" src="imagens/javeriana.png"></a>
-          </div>
-          
-          <div class="imagemFooter">
-            <a href="https://www.univalle.edu.co/"><img id="univalle" src="imagens/Univalle.png"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="http://www.ufrgs.br/ufrgs/inicial"><img id="ufrgs" src="imagens/ufrgs.png"></a>
-          </div>
-          <div class="imagemFooter">
-            <a href="https://www.ufsj.edu.br/"><img id="ufsj" src="imagens/ufsj.png"></a>
+          <div class="organization">
+            <div class="imagemFooter">
+              <a href="https://www.iue.edu.co/"
+                ><img id="iue" src="imagens/IUE.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://colne.org.co/"
+                ><img id="colne" src="imagens/colne.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.javerianacali.edu.co/"
+                ><img id="javeriana" src="imagens/javeriana.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.univalle.edu.co/"
+                ><img id="univalle" src="imagens/Univalle.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="http://www.ufrgs.br/ufrgs/inicial"
+                ><img id="ufrgs" src="imagens/ufrgs.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.ufsj.edu.br/"
+                ><img id="ufsj" src="imagens/ufsj.png"
+              /></a>
+            </div>
           </div>
         </div>
-
+        <div class="subFooter2">
+          <h4>Support</h4>
+          <div class="support">
+            <div class="imagemFooter">
+              <a href="https://www.udea.edu.co/"
+                ><img id="support" src="imagens/UDEA.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.eia.edu.co/"
+                ><img id="support" src="imagens/EIA.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.uniremington.edu.co/"
+                ><img id="support" src="imagens/uniremington.png"
+              /></a>
+            </div>
+            <div class="imagemFooter">
+              <a href="https://www.usbmed.edu.co/"
+                ><img id="support" src="imagens/sanbuenaventura.png"
+              /></a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="subFooter">
-        <h4>Support</h4>
-         <div class="imagemFooter">
-          <a href="https://www.udea.edu.co/"><img id="support" src="imagens/UDEA.png"></a>
-          <a href="https://www.eia.edu.co/"><img id="support" src="imagens/EIA.png"></a>
-          <a href="https://www.uniremington.edu.co/"><img id="support" src="imagens/uniremington.png"></a>
-          <a href="https://www.usbmed.edu.co/"><img id="support" src="imagens/sanbuenaventura.png"></a>
-          
-
-        </div> 
-
+      <div id="miniFooter">
+        <h6>
+          Copyright ©LAWCN 2023 - Contact us by e-mail:
+          <a href="#">lawcn_2023@iue.edu.co</a>
+        </h6>
       </div>
-    </div>
-    <div id="miniFooter">
-      <h6>Copyright ©LAWCN 2023 - Contact us by e-mail: <a href="#">lawcn_2023@iue.edu.co</a> </h6>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-    crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-  <script type="jQuery">
-            $('.carousel').carousel({
-                interval: 1000
-              })
-        </script>
-
-</body>
-
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script type="jQuery">
+      $('.carousel').carousel({
+          interval: 1000
+        })
+    </script>
+  </body>
 </html>

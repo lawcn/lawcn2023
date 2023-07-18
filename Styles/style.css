@@ -69,14 +69,15 @@ a:visited:hover {
 .div-imagem {
   background-color: #fff;
   border-color: hsl(276, 100%, 20%);
-  height: 250px;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.div-imagem #textoPrincipalCabecalho {
+.div-imagem img {
   width: 100%;
+  height: 250px;
   text-align: center;
 }
 
@@ -286,12 +287,12 @@ a:visited:hover {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: #dedede;
+  background-color: #ffffff;
   color: #313131;
   min-height: fit-content;
-
+  gap: 20px;
   width: 100%;
   text-align: center;
 }
@@ -300,11 +301,29 @@ a:visited:hover {
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
+
+.subFooter2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
 .subFooter h4 {
+  color: #d1752a;
   margin-bottom: 15px;
   text-align: center;
 }
+
+.subFooter2 h4 {
+  color: #0f7689;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 #miniFooter {
   text-align: center;
   padding: 7px;
@@ -321,31 +340,38 @@ a:visited:hover {
   align-items: center;
 }
 
+.support {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 #iue {
   height: 150px;
 }
 #javeriana {
-  height: 150px !important;
+  height: 150px;
 }
 #colne {
-  height: 150px !important;
+  height: 150px;
 }
 #univalle {
-  height: 150px !important;
+  height: 150px;
 }
 #ufrgs {
-  height: 150px !important;
+  height: 150px;
 }
 #ufsj {
-  height: 150px !important;
+  height: 150px;
 }
 
 #support {
-  height: 150px !important;
+  height: 150px;
 }
 
 .imagemFooter {
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 .alert-box {

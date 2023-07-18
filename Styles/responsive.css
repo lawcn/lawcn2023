@@ -23,13 +23,29 @@
   .footer {
     flex-direction: column;
   }
+  #iue {
+    height: 100px !important;
+  }
+  #javeriana {
+    height: 100px !important ;
+  }
+  #colne {
+    height: 100px !important;
+  }
+  #univalle {
+    height: 100px !important;
+  }
+  #ufrgs {
+    height: 100px !important;
+  }
+  #ufsj {
+    height: 100px !important;
+  }
+  #support {
+    height: 100px !important;
+  }
 }
 @media only screen and (max-width: 620px) {
-  .organization {
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-  }
 }
 @media only screen and (max-width: 560px) {
 }
@@ -44,10 +60,6 @@
   #textoPrincipalCabecalho h6 {
     font-size: 0.89em !important;
   }
-  .div-imagem #logoEvento {
-    width: 420px;
-    height: 90px;
-  }
 
   #imgIbro {
     width: 150px !important;
@@ -58,15 +70,41 @@
     width: 110px !important;
     height: 110px !important;
   }
+
+  .footer {
+    gap: 10px !important;
+  }
+
+  #iue {
+    height: 50px !important;
+  }
+  #javeriana {
+    height: 50px !important ;
+  }
+  #colne {
+    height: 50px !important;
+  }
+  #univalle {
+    height: 50px !important;
+  }
+  #ufrgs {
+    height: 50px !important;
+  }
+  #ufsj {
+    height: 50px !important;
+  }
+  #support {
+    height: 50px !important;
+  }
 }
 
 @media only screen and (max-width: 470px) {
   #textoPrincipalCabecalho h6 {
     font-size: 0.85em !important;
   }
-  .div-imagem #logoEvento {
-    width: 400px;
-    height: 70px;
+
+  .div-imagem img {
+    height: 150px !important;
   }
 
   #imgIbro {
@@ -88,9 +126,9 @@
   #textoPrincipalCabecalho #sigla {
     display: none;
   }
-  .div-imagem #logoEvento {
-    width: 370px;
-    height: 60px;
+
+  .div-imagem img {
+    height: 120px !important;
   }
 
   footer {
@@ -121,10 +159,6 @@
     margin-left: 60px;
     text-align: left;
   }
-  .div-imagem #logoEvento {
-    width: 370px;
-    height: 60px;
-  }
 
   #imgIbro {
     width: 150px !important;
@@ -153,10 +187,6 @@
   #textoPrincipalCabecalho {
     width: 90% !important;
   }
-  .div-imagem #logoEvento {
-    width: 340px;
-    height: 60px;
-  }
 
   #imgIbro {
     width: 150px !important;
@@ -175,5 +205,27 @@
   #ccisImg {
     width: 180px !important;
     height: 151px !important;
+  }
+
+  #iue {
+    height: 40px !important;
+  }
+  #javeriana {
+    height: 40px !important ;
+  }
+  #colne {
+    height: 40px !important;
+  }
+  #univalle {
+    height: 40px !important;
+  }
+  #ufrgs {
+    height: 40px !important;
+  }
+  #ufsj {
+    height: 40px !important;
+  }
+  #support {
+    height: 40px !important;
   }
 }
