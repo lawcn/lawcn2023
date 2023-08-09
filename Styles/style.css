@@ -306,19 +306,18 @@ a:visited:hover {
 .subFooter2 {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start;
   width: 100%;
 }
 
 .subFooter h4 {
-  color: #d1752a;
+  color: #0e5a68;
   margin-bottom: 15px;
   text-align: center;
 }
 
 .subFooter2 h4 {
-  color: #0f7689;
+  color: #ec3b11;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -341,6 +340,22 @@ a:visited:hover {
 
 .support {
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sponsors {
+  width: 33%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
