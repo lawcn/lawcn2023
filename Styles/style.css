@@ -166,6 +166,40 @@ a:visited:hover {
 #doubled-line hr {
   margin: 2px;
 }
+/*---- Organizers ----*/
+
+.organizers h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #14778b;
+  text-align: center;
+}
+
+.organizers_cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.organizers_card {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  gap: 30px;
+}
+.organizers_card img {
+  max-height: 120px;
+}
+
+#organizers {
+  margin: 100px 0 100px 0;
+  width: 100%;
+}
 
 /*---- Cards ---- */
 
@@ -182,6 +216,16 @@ a:visited:hover {
   text-align: center;
   color: #115a69;
 }
+
+.title2 {
+  margin: 30px;
+  text-align: center;
+  color: #115a69;
+}
+.title2 h1 {
+  color: #e9761d;
+}
+
 /* #e9761d; */
 .more {
   border-radius: 5px;
