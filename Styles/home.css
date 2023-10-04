@@ -1,0 +1,127 @@
+.containerHome {
+  padding: 0 50px;
+}
+/* .img-fluid img {
+  width: 100%;
+
+  object-fit: cover;
+ 
+  object-position: center;
+} */
+
+.generalInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.titleInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  color: #115a69;
+}
+.titleInfo h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.Information p {
+  font-weight: 800;
+  color: #115a69;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+
+.topics img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Information {
+  border: solid 2px #115a69;
+  height: 600px;
+  padding: 30px;
+}
+.InformationContent {
+  height: 500px;
+  overflow: auto;
+}
+
+/* Estilos para la barra de desplazamiento */
+.InformationContent::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+.buttonInformation {
+  margin: 0;
+  padding-left: 30px;
+  display: flex;
+  border: 0;
+
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttonInformation img {
+  width: 50px;
+  height: 50px;
+}
+
+.moreInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #115a69;
+  padding: 20px 0;
+}
+.moreInfoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  width: 33%;
+}
+
+.moreInfoCard h1 {
+  text-align: center !important;
+  color: #0091ae;
+}
+.moreInfoCard p {
+  text-align: center !important;
+  color: #0091ae;
+  font-size: 20px;
+}
+
+.versions img {
+  width: 100%;
+  height: 100%;
+}
+.versionsLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -80px;
+  height: 80px;
+}
+.versionsLinks a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

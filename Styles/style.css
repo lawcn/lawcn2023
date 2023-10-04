@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap");
 
 body {
-  font-family: "Source Serif Pro", serif;
+  font-family: "Raleway", sans-serif;
   padding: 0;
   margin: 0;
   background-color: #d0b5e8 im !important;
   height: 100%;
 }
 p {
+  font-weight: 800;
   text-align: justify;
 }
 h1,
@@ -16,7 +17,7 @@ h3,
 h4,
 h5 {
   font-weight: 600;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Raleway", sans-serif;
 }
 h5 {
   color: #14778b;
@@ -78,6 +79,10 @@ a:visited:hover {
 .div-imagem img {
   width: 100%;
   height: 250px;
+  text-align: center;
+}
+.div-imagem2 img {
+  width: 100%;
   text-align: center;
 }
 
