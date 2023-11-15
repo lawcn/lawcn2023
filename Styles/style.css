@@ -38,6 +38,7 @@ nav #navbarNavAltMarkup {
 
 .navbar-nav a {
   flex-grow: 1;
+  text-align: center;
 }
 .colorText {
   color: #fff;
@@ -50,6 +51,7 @@ nav #navbarNavAltMarkup {
 
 .navbar-nav {
   font-weight: bold;
+  align-items: center;
 }
 .active {
   color: #d1762b;
